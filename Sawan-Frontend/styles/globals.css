@@ -1,0 +1,86 @@
+html,
+body {
+  padding: 0;
+  /* -webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+-o-user-select: none;
+user-select: none; */
+  margin: 0;
+  background-color: #FAACA8;
+  font-family: 'Poppins', sans-serif;
+  background-image: linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
+}
+
+a{
+  text-decoration: none;
+}
+
+.artboard_section{
+  background-color: white;
+  background-image: url("https://img.freepik.com/free-photo/hand-painted-watercolor-background-with-sky-clouds-shape_24972-1095.jpg?t=st=1654455384~exp=1654455984~hmac=eb3387e2226151e293ec7b9a2c57ede156b090126e8876514529760a3be7ecb7&w=1800");
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+}
+.holder{
+  width:700px;
+  background-image: url("https://img.freepik.com/free-vector/flat-design-baby-shower-zoom-background_23-2149242840.jpg?t=st=1654422038~exp=1654422638~hmac=efa86396bd1fe22d653e8ce820fd02556d93ee1f41b16c75721304d6af17ca37&w=826");
+}
+.held{
+  position:relative;
+  overflow:hidden;
+  border: none;
+}
+.button{
+  width:150px;
+  padding:10px;
+}
+
+#ActivityDIV .swatchHolder{
+  position:absolute;
+  bottom:0px;
+  margin:auto;
+  left:0px;
+  right:0px;
+  list-style-type:none;
+  text-align:center;
+  display:inline-block;
+  padding: 15px;
+  width:260px;
+  border-radius: 20px 20px 0px 0px;
+  color: black;
+}
+#ActivityDIV .swatchHolder .colorHolder{
+  width:100%;
+  line-height: 100%;
+  content:'Chosen Color';
+  padding: 10px 0px;
+  margin: 0px auto 15px auto;
+  cursor:pointer;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 1px 5px rgba(0,0,0,0.5);
+     -moz-box-shadow: 0 1px 5px rgba(0,0,0,0.5);
+          box-shadow: 0 1px 5px rgba(0,0,0,0.5);
+}
+#ActivityDIV .swatchHolder li:not(.colorHolder){
+  height:25px;
+  width:25px;
+  margin:2px;
+  display:inline-block;
+  cursor:pointer;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 1px 5px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0 1px 5px rgba(0,0,0,0.5);
+  box-shadow: 0 1px 5px rgba(0,0,0,0.5);
+}
+
+#ActivityDIV svg{
+  width:100%;
+  display:inline-block;
+}
+#ActivityDIV svg path{
+  cursor:pointer;
+}
+

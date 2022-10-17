@@ -1,0 +1,10 @@
+/* I made these changes in nprogress.css */
+#nprogress .bar {
+    height: 4px;
+    background-color: #ffffff;
+  }
+  #nprogress .spinner-icon {
+    width: 25px;
+    height: 25px;
+    border: solid 3px transparent;
+  }
